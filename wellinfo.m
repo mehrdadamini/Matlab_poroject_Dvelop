@@ -6,7 +6,7 @@ for i=1:wellno
     prompt{2*i-1}=sprintf('%.0fth well position (X*Y):',i);
     prompt{2*i}=sprintf('%.0fth well Rate (bbl):',i);
     definput{2*i-1} = [char(string(round(sx-(sx/i)+1))), '*', char(string(round(sx-(sx/i)+1)))];
-    definput{2*i} = char(string(-randi(150,1,"double")));
+    definput{2*i} = char(string(-randi(150,1,'double')));
 end
 dlgtitle = 'Well positions';
 dims = [1 35];

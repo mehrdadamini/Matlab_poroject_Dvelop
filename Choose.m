@@ -1,7 +1,7 @@
 function [BC,Choice] = Choose
 name={'West...','East...','South...','North...','Bottom...','Upper...'};
 for i=1:6
-choice = "Pressure Gradient Specified"; %Default
+choice = 'Pressure Gradient Specified'; %Default
 value = 0; %Default
 d = dialog('Position',[600 500 250 200],'Name',name{i});
 txt = uicontrol('Parent',d,...
