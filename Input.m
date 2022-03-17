@@ -1,4 +1,5 @@
 function out=Input
+%Fuck you
 opts.Defaultbtn='OK';
 opts.Interpreter = 'tex';
 opts.Resize='on';
